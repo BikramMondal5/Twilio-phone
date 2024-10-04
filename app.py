@@ -23,12 +23,12 @@ def make_call():
 
     # Ensure the phone number is in the correct format (E.164 format required by Twilio)
     if not phone_number.startswith('+91'):
-        phone_number = '+91' + phone_number  # Just an example, adjust based on your input format
+        phone_number = '+91' + phone_number  
     
     # Twilio API to make the call
     call = client.calls.create(
         to=phone_number,  # Use the phone number from the form
-        from_='+18705683865',  # Your Twilio phone number
+        from_='',  # Your Twilio phone number
         url='http://demo.twilio.com/docs/voice.xml'  # TwiML URL for call actions
     )
 

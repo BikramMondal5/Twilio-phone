@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    caret-color: #28a745;
+   
+}
+
+.call {
+    height: 70px;
+    width:  70px;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    top: 13rem;
+    z-index: 1;
+}
+.fa-phone{
+    font-size: 30px;
+    position: relative;
+    right: 5px;
+}
+form {
+    width: 40%;
+}
+.phone {
+    width: 350px;
+    height: 600px;
+    background-color: black;
+    position: relative;
+    left: 5rem;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+.glass {
+    width: 97%;
+    height: 97%;
+    background-size: cover;
+    padding-top: 5px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(119, 100, 100, 0.5);
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+button:hover {
+    background-color: #218838;
+}
+.icon-div {
+    font-size: 16px;
+    display: flex;
+}
+
+.fa-magnifying-glass {
+   position: absolute;
+   top: 9px;
+   right: 30px;
+}
+
+.fa-ellipsis-vertical {
+    position: absolute;
+    top: 9px;
+    right: 12px;
+}
+
+.phone-text {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+.text {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.input-field {
+    height: 8rem;
+    width: 20rem;
+    position: absolute;
+    top: 5rem;
+    left: 10px;
+    background: transparent;
+}
+#phone-input {
+    width: 19rem;
+    height: 100%;
+    font-size: 2rem;
+    text-align: right;
+    padding: 10px;
+    background-color: transparent;
+    
+    border: none;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+}
+small {
+    color: grey;
+    font-size: 12px;
+}
+.dialer {
+    height: 15rem;
+    width: 20rem;
+    position: absolute;
+    top: 14rem;
+    left: 10px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button {
+    width: 3rem;
+    height: 3rem;
+    margin: 10px;
+    background: transparent;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 12px;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: grey;
+}
+
+.head {
+    font-size: 12px;
+}

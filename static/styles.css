@@ -1,0 +1,247 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lavender;
+}
+.phone{
+    width: 350px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+.glass{
+    width: 98%;
+    height: 98%;
+    background-image: url("spiderman.jpg");
+    background-size: cover;
+    padding-top: 5px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sensor{
+    width: 96%;
+    height: 96%;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(119,100,100,0.5);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 3px;
+    padding-top: 10px;
+    box-sizing: border-box; 
+    
+    
+}
+.camera{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.weather{
+    width: 150px;
+    height: 100px;
+    background-color: transparent;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+   position: absolute;
+   top: 30px;
+   left: 25px; 
+}
+.weather1{
+    font-size: 32px;
+}
+.weather1 i{
+    text-shadow:none;
+
+}
+.search-bar{
+    width: 95%;
+    height: 35px;
+    background-color: rgba(255,255,255,0.2);
+    position: relative;
+    top: 140px;
+    border-radius: 30px;
+    display: flex;
+    cursor: pointer;
+}
+.google{
+    background-image: url("https://www.logo.wine/a/logo/Google/Google-Logo.wine.svg");
+    background-size: cover;
+    background-position: center;
+    height: 28px;
+    width: 70px;
+    position: relative;
+    bottom: -3px;
+}
+.microphone{
+    height: 30px;
+    width: 30px;
+    background-image: url("https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 3px;
+    right: 42px;
+}
+.google-cam{
+    height:25px;
+    width: 25px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/2048px-Google_Lens_Icon.svg.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 6px;
+    right: 7px;
+}
+.slidebar{
+    width: 100%;
+    height: 15px;
+    background-color: transparent;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top: 160px;
+}
+.slidebar i{
+    position: relative;
+    right: 5px;
+}
+.circle{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    left: 5px;
+    top: 1px;
+}
+.apps{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.phone-icon{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 9px;
+    bottom: 1rem;
+    background: #4CAF50;
+    background-size: cover;
+    border-radius: 22px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    
+}
+.youTube{
+    height: 50px;
+    width: 50px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/YouTube_social_white_square_%282017%29.svg/2048px-YouTube_social_white_square_%282017%29.svg.png");
+    background-size: cover;
+    border-radius: 22px;
+    position: absolute;
+    left: 6rem;
+    bottom: 1rem;
+    cursor: pointer;
+}
+.whatsapp{
+    height: 50px;
+    width: 50px;
+    background-image: url("https://static-00.iconduck.com/assets.00/whatsapp-icon-2048x2048-64wjztht.png"); 
+    background-size: cover;
+    border-radius: 22px;
+    position: absolute;
+    right: 6rem;
+    bottom: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+.camera2{
+    height: 50px;
+    width: 50px;
+    background-image: url("https://cdn.iconscout.com/icon/free/png-256/free-camera-4761992-3955505.png"); 
+    background-size: cover;
+    border-radius: 22px;
+    position: absolute;
+    bottom: 1rem;
+    right: 9px;
+    cursor: pointer;
+}
+.NAV-BAR{
+    width: 100%;
+    height: 17px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: -15px;
+    font-size: 13px;
+}
+.time{
+    height: 17px;
+    width: 37px;
+    background-color: transparent;
+    position: absolute;
+    left: 9px;
+}
+
+.alarm{
+    height: 17px;
+    width: 25px;
+    background-color: transparent;
+    position: absolute;
+    right: 100px;
+    display: flex;
+    justify-content: center;
+}
+.wifi{
+    height: 17px;
+    width: 25px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 69px;
+}
+.signal{
+    height: 17px;
+    width: 25px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 40px;
+}
+.battery{
+    height: 17px;
+    width: 25px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+}

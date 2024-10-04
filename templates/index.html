@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phone home page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <div class="phone">
+    <div id = "gls" class="glass">
+      <div id = "sense" class="sensor">
+        <div class="weather">
+          <div class="weather1">
+            <i class="fa-solid fa-cloud-rain" style="color: #d0cfd4;"></i>32°
+          </div>
+          <div class="weather2">
+            <i class="fa-sharp fa-solid fa-location-dot" style="color: #ffffff;"></i> Adarsha Nagar
+          </div>
+          <div class="date">
+            23/6,4:23 pm
+            <i class="fa-solid fa-rotate-right" style="color: #ffffff;"></i>
+          </div>
+        </div>
+        
+        <div class="camera"></div>
+        <div class="search-bar">
+          <div class="google"></div>
+          <div class="microphone"></div>
+          <div class="google-cam"></div>
+        </div>
+
+        <div class="slidebar">
+          <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+          <div class="circle"></div>
+        </div>
+        
+
+        <form action="{{ url_for('load_page') }}" method="POST">
+          <button class="phone-icon" type="submit">
+            <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+          </button>
+          <div class="youTube"></div>
+          <div id="whats" class="whatsapp"></div>
+          <div class="camera2"></div>
+        </form>
+        
+        
+        <div class="NAV-BAR">
+          <div class="time">11:45</div>
+          <div class="alarm"><i class='bx bxs-alarm'></i></div>
+          <div class="wifi"><i class="fa-solid fa-wifi"></i></div>
+          <div class="signal"><i class="fa-solid fa-signal"></i></div>
+          <div class="battery"><i class="fa-solid fa-battery-three-quarters"></i></div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <script src = "script.js"></script>
+</body>
+</html>

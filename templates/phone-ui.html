@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twilio Call</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <form action="{{ url_for('make_call') }}" method="POST">
+        <div class="phone">
+            <div class="glass">
+                <div class="background">
+                    <div class="icon-div">
+                        <p class="phone-text">Phone</p>
+                        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                        <i class="fa-solid fa-ellipsis-vertical" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="phone-input" name="phone_number">
+                    </div>
+                    <div class="dialer">
+                        <!-- Your dialer buttons as before -->
+                        <div class="button" onclick="addNumber('1')">1<br><small><i class="fa-solid fa-headphones head" style="color: #63E6BE;"></i></small></div>
+                        <div class="button" onclick="addNumber('2')">2<br><small>ABC</small></div>
+                        <div class="button" onclick="addNumber('3')">3<br><small>DEF</small></div>
+                        <div class="button" onclick="addNumber('4')">4<br><small>GHI</small></div>
+                        <div class="button" onclick="addNumber('5')">5<br><small>JKL</small></div>
+                        <div class="button" onclick="addNumber('6')">6<br><small>MNO</small></div>
+                        <div class="button" onclick="addNumber('7')">7<br><small>PQRS</small></div>
+                        <div class="button" onclick="addNumber('8')">8<br><small>TUV</small></div>
+                        <div class="button" onclick="addNumber('9')">9<br><small>WXYZ</small></div>
+                        <div class="button" onclick="addNumber('*')">*</div>
+                        <div class="button" onclick="addNumber('0')">0<br><small>+</small></div>
+                        <div class="button" onclick="addNumber('#')">#</div>
+                    </div>
+                    </div>
+                    <button id="call-button" class="call" type="submit">
+                        <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                    </button>
+                    <div class="text">
+                        <p class="keypad">Keypad</p>
+                        <p class="recents">Recents</p>
+                        <p class="contacts">Contacts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+    <script>
+        function addNumber(num) {
+            const inputField = document.getElementById('phone-input');
+            inputField.value += num;
+        }
+    </script>
+    
+</body>
+</html>

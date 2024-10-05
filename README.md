@@ -51,11 +51,6 @@ Before running the application, ensure you have the following installed:
 2. Input the phone number you want to call in the provided interface.
 3. Click the call button, and the app will make the call using Twilio services.
 
-## Example
-
-![Screenshot of the app] (
-Screenshot.jpg)
-
 ## Credits
 
 Special thanks to [Twilio](https://www.twilio.com/) for their amazing API, which powers the call functionality in this application.

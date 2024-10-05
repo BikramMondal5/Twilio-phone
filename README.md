@@ -53,7 +53,8 @@ Before running the application, ensure you have the following installed:
 
 ## Example
 
-![Screenshot of the app] (Screenshot.jpg)
+![Screenshot of the app] (
+Screenshot.jpg)
 
 ## Credits
 

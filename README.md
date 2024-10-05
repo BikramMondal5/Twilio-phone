@@ -33,17 +33,18 @@ Before running the application, ensure you have the following installed:
     ```bash
     cd Twilio-phone
     ```
-3. Set up environment variables for Twilio in a `.env` file:
+3. Create a new Twilio account and get your twilio account sid, auth-token and phone number. 
+4. Set up environment variables for Twilio in a `.env` file:
     ```bash
     TWILIO_ACCOUNT_SID=your_account_sid
     TWILIO_AUTH_TOKEN=your_auth_token
     TWILIO_PHONE_NUMBER=your_twilio_number
     ```
-4. Run the Flask app:
+5. Run the Flask app:
     ```bash
     python app.py
     ```
-5. Open your browser and navigate to `http://127.0.0.1:5000/`.
+6. Open your browser and navigate to `http://127.0.0.1:5000/`.
 
 ## Usage
 

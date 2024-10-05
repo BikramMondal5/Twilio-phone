@@ -49,7 +49,7 @@ Before running the application, ensure you have the following installed:
 ## Usage
 
 1. After running the app, you'll see a smartphone UI on the screen.
-2. Input the phone number you want to call in the provided interface.
+2. After click on the phone icon, you're redirect to a phone dialer UI where you can enter the phone number you want to call.
 3. Click the call button, and the app will make the call using Twilio services.
 
 ## Credits

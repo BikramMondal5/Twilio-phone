@@ -55,3 +55,11 @@ Before running the application, ensure you have the following installed:
 ## Credits
 
 Special thanks to [Twilio](https://www.twilio.com/) for their amazing API, which powers the call functionality in this application.
+
+## Contribution
+   
+   Feel free to fork this repository, raise issues, or submit pull requests to add features or improve the design.
+   
+   ## License
+   
+   This project is licensed under the `MIT License`.

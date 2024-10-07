@@ -43,7 +43,9 @@ Before running the application, ensure you have the following installed:
 4. Set up environment variables for Twilio in a `.env` file:
     ```bash
     TWILIO_ACCOUNT_SID=your_account_sid
+    
     TWILIO_AUTH_TOKEN=your_auth_token
+    
     TWILIO_PHONE_NUMBER=your_twilio_number
     ```
 5. Run the Flask app:

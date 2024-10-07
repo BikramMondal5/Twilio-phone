@@ -18,7 +18,7 @@ This project is an interactive smartphone UI built with HTML, CSS, JavaScript, a
 
 - You can also enable real-time live calls and interact with people by integrating additional JavaScript logic. For more details, please visit the official  [Twilio](https://www.twilio.com/) website.
 
-  ![Alt text](phone-dialer.png)
+  ![Phone-dialer](phone-dialer.jpg)
 
 
 ## Requirements

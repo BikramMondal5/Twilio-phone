@@ -9,6 +9,9 @@ This project is an interactive smartphone UI built with HTML, CSS, JavaScript, a
 - **Weather and time widget**: Weather and clock display are included to enhance the UI.
 - **Tech stack**: Built using Python (Flask), HTML, CSS, and JavaScript.
 
+  ![Alt text](Screenshot.jpg)
+
+
 ## Note
 
 - This code currently supports recorded calls only, which you can replace with your own pre-recorded audio.
